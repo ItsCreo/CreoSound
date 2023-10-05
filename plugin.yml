@@ -1,5 +1,5 @@
 name: CreoSound
-version: '${project.version}'
+version: 1.0
 main: dev.itscreo.creosound.CreoSound
 api-version: '1.16'
 author: ItsCreo
