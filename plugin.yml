@@ -1,0 +1,20 @@
+name: CreoSound
+version: '${project.version}'
+main: dev.itscreo.creosound.CreoSound
+api-version: '1.16'
+author: ItsCreo
+description: Плагин на удобные кастомные звуки.
+commands:
+  sound:
+    description: Использование команды /sound
+    usage: /sound [Игрок | All] [ID] [Громкость] [Тон]
+    permission: creosound.sound
+  soundradius:
+    description: Использование команды /soundradius
+    usage: /soundradius [Игрок] [ID] [Громкость] [Тон] [Радиус]
+    permission: creosound.soundradius
+permissions:
+  creosound.sound:
+    description: Разрешение на использование команды /sound
+  creosound.soundradius:
+    description: Разрешение на использование команды /soundradius
